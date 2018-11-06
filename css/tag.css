@@ -1,0 +1,41 @@
+header
+    {
+    background-image: url(../img/bg_faqs.jpg);
+    }
+
+a,a:visited
+    {
+    color:black;
+    text-decoration: none;
+    }
+ 
+a:hover
+    {
+    color:#808080;
+    text-decoration: none;
+    }
+
+.searchZone
+    {
+    background: transparent;
+    width: 240px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    }
+    
+.divSearch
+    {
+margin-top: 10%;
+        width: 240px;
+    height: 34px;
+    border: 1px solid #ccc;
+    }
+
+
+
+    

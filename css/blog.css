@@ -1,0 +1,32 @@
+
+header 
+    {
+    text-align: center;
+    color: #ffffff;
+    background-attachment: scroll;
+    background-image: linear-gradient(90deg,   rgba(124, 180, 179, 1) 10%, rgba(203, 215, 210, 1) 50%,  rgba(1, 74, 58, 1) 100%);
+    background-position:center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    }
+
+.panel-body > h1, h2, h3, h4, h5 
+    { display: inline; }
+    
+.section-heading, .btn-default
+    { text-transform: uppercase;}
+    
+.img-blog
+    {
+    width:150px;
+    height:150px;
+    margin:30px;
+    float:left;
+    }
+
+.container h5{
+    font-size: 16px;
+    }
+    

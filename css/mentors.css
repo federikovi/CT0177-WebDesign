@@ -1,0 +1,142 @@
+h3 {
+    text-align: center;
+
+}
+h4 {
+    text-align: center;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+    color: #ffffff;
+    background-attachment: scroll;
+    background: linear-gradient(15deg, rgba(21,254,70, 0.8) 20%, rgba(78,205,196, 0.8) 40%,rgba(42,252,152, 0.8) 90%);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    font-style: italic;
+    line-height: 18px;
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+ 
+    header .intro-text .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+ 
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+#portfolio {
+    margin-top: 0px;
+}
+
+#portfolio img {
+    width:100%;
+    height: 100%;
+}
+
+.portfolio-item {
+    margin: 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #ffffff;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 0.6;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;    
+    }
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px  100px 0;
+    min-height: 100%;
+    text-align: center; 
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+ 
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+    position: center;
+}
+
+button.btn {
+    background: linear-gradient(15deg, rgba(21,254,70, 0.8) 20%, rgba(78,205,196, 0.8) 40%,rgba(42,252,152, 0.8) 90%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+button.btn:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+.container h5{
+    font-size: 16px;
+    }
+

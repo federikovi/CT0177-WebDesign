@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    color: #ffffff;
+    background-attachment: scroll;
+    background-image: linear-gradient(90deg,   rgba(122, 132, 150, 1) 10%, rgba(141, 157, 102, 1) 50%,  rgba(68, 105, 45, 1) 100%);
+    background-position:center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.img-blog
+    {
+    width:150px;
+    height:150px;
+    margin:30px;
+    float:left;
+    }
+    
+.glyphicon-time, .glyphicon-user
+    { margin:10px;}
+
+.container h5{
+    text-align: left;
+    font-size: 20px;
+    }

@@ -1,0 +1,21 @@
+header
+    {
+    background-image: url(../img/bg_faqs.jpg);
+    }
+    
+.firstList
+    {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    list-style-type:disc;
+    }
+    
+.secondList
+    {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    list-style-type:none;
+    }
+    
+.firstList li
+    { height:35px; }

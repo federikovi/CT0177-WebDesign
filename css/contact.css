@@ -1,0 +1,38 @@
+header {
+ 
+     background: linear-gradient(15deg, rgba(78,159,178, 0.8) 20%, rgba(43,175,59, 0.8) 40%,rgba(85,169,171, 0.8) 90%);
+}
+
+.form-group .control-label 
+    { font-size: 15px; }
+
+blockquote  {
+    border-color: darkgrey;
+    padding: 50px 40px 
+    }
+
+
+#nameclient, #mailaddress, #fieldmessage {
+    padding: 10px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#buttonsubmit {
+   background-color: grey;
+    border: transparent;
+    
+}
+
+#buttonsubmit, #buttonsubmit:hover {
+    background-color: grey;
+    border: transparent;
+    
+}
+
+#buttonsubmit:active {
+    background-color: silver;
+}
+p {
+padding: 0;
+}
