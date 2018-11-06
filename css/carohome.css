@@ -1,0 +1,211 @@
+
+.carousel {
+    position: absolute;
+  margin-bottom: -60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+} 
+@media (max-width: 1920px) {
+ 
+    .carousel-caption h1 {
+      font-size: 80px;
+        text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+}
+    }
+ 
+    .carousel-caption p {
+      font-size: 20px;
+    }
+}
+@media (max-width: 1280px) {
+ 
+    .carousel-caption h1 {
+      font-size: 80px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 15px;
+    }
+}
+ 
+@media (max-width: 1024px) {
+ 
+    .carousel-caption h1 {
+      font-size: 60px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 11px;
+    }
+}
+
+@media (max-width: 800px) {
+ 
+     .carousel-caption {
+         margin-bottom: 6%;
+    }
+    .carousel-caption h1 {
+      font-size: 40px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 12px;
+    }
+}
+ 
+@media (max-width: 700px) {
+    .carousel-caption {
+      z-index: 10;
+      margin-bottom: 10px;
+    }
+ 
+    .carousel-caption h1 {
+      font-size: 20px;
+    }
+ 
+    .carousel-caption p {
+      font-size: 15px;
+    }
+     
+}
+
+@media (max-width: 500px) {
+    .carousel-caption {
+      z-index: 10;
+      margin-bottom: 8px;
+    }
+ 
+    .carousel-caption h1 {
+      display: none;
+    }
+ 
+    .carousel-caption p {
+        padding: 0px;
+      font-size: 10px;
+    }
+ 
+}
+h2   {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    }
+#numbers{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #b9d0b2;}
+
+#numbers h1 {
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    }
+#numbers h2 {
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+h4{
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding:30px;
+    }
+
+blockquote  {
+    background-image: linear-gradient(45deg, rgba(101,171,139, 0.4) 0% , rgba(101,171,139, 0.8) 50%, rgba(146,197,190, 0.7) 100% ) ;
+    padding: 10px 10px 10px 10px;
+    border-color: transparent;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-style:italic;
+    font-weight: bold;
+    }
+
+blockquote p {
+    font-size: 30px;
+    text-align: center;
+    }
+
+
+
+.glyphicon.glyphicon-book {
+    font-size: 75px;
+    display:block;
+    text-align: center;
+}
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.col-sm-12 .img{
+    margin-left: 20px;
+    padding-left:  25px;
+}
